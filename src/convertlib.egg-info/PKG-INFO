@@ -1,6 +1,6 @@
 Metadata-Version: 2.1
 Name: convertlib
-Version: 0.0.1.1
+Version: 0.0.1.3
 Summary: Converte arquivos
 Home-page: https://github.com/hectorsalg/convertlib
 Author: Hector Salgueiros e Lizzandro
@@ -20,7 +20,7 @@ convertlib
 
 ## Uso
 ```
-import convertlib as cv
+from convertlib import convertlib as cv
 path = "path/to/file.extension"
 converter = cv.convertlib(path)
 converter.docx2pdf()

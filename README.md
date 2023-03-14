@@ -9,7 +9,7 @@ convertlib
 
 ## Uso
 ```
-import convertlib as cv
+from convertlib import convertlib as cv
 path = "path/to/file.extension"
 converter = cv.convertlib(path)
 converter.docx2pdf()
